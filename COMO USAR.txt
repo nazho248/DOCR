@@ -1,0 +1,22 @@
+First, download the latest standalone CLI TailwindCSS executable from GitHub and copy it into your project folder. For convenience, you may want to rename the downloaded file to tailwindcss or tailwindcss.exe on Windows.
+
+1. Tener el CLI (este es 3.3.3)
+2. ejecutar en cmd: tailwind.exe init
+3. abrir "tailwind.config.js" y configurar contents con 
+        './server/admin/**/*.{html,js}',
+        './server/public/**/*.tpl',
+con mis archivos los cuales tienen cambios en tailwind
+4. Crear un archivo input en el cual tenga solo 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+5. Ejecutar tailwindcss.exe -i style/input.css -o style/main.css
+donde -i es el input el cual es el archivo base
+-o es el output de clases tailwind usadas
+
+se pueden usar parametros como 
+--watch para generar el archivo con solo los cambios realizados, y 
+--minify para generar un min.css (sin saltos)
+
+tailwind.exe -i assets/css/tailwind.css -o assets/css/twstyles.css --watch
