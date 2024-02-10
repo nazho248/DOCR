@@ -8,7 +8,7 @@ body {
     align-items: center;
     height: 100vh;
   }
-  
+
   .container {
     text-align: center;
     padding: 20px;
@@ -17,12 +17,12 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
   }
-  
+
   .file-label {
     display: block;
     margin-bottom: 20px;
   }
-  
+
   .file-input {
     font-size: 100px;
     position: absolute;
@@ -30,9 +30,9 @@ body {
     top: 0;
     opacity: 0;
   }
-  
+
   .file-btn {
-    background-color: #4F0FA3;
+    background-color: #1e293b;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -41,13 +41,13 @@ body {
     margin-bottom: 10px;
     display: block;
   }
-  
+
   .file-btn:hover {
-    background-color: #5f24ac;
+    background-color: #334155;
   }
-  
+
   .extract-btn, .copy-btn {
-    background-color: #4F0FA3;
+    background-color: #1e293b;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -57,16 +57,16 @@ body {
     width: 100%;
     margin-bottom: 10px;
   }
-  
+
   .extract-btn:hover, .copy-btn:hover {
-    background-color: #5f24ac;
+    background-color: #334155;
   }
-  
+
   .textbox-container {
     display: flex;
     flex-direction: column;
   }
-  
+
 
   .result-text {
     margin-bottom: 10px;
@@ -78,15 +78,15 @@ body {
     background-color: #f2f2f2;
     color: #333;
     outline: none;
-    resize: none; 
-    overflow-y: auto; 
-    transition: height 0.3s; 
+    resize: none;
+    overflow-y: auto;
+    transition: height 0.3s;
   }
-  
+
   .result-text:focus {
     border: none !important;
   }
-  
+
 
   .result-text.expanding {
     height: auto;
@@ -96,9 +96,9 @@ body {
     display: flex;
     align-items: center;
   }
-  
+
   .copy-btn {
-    background-color: #5f24ac;
+    background-color: #1e293b;
     color: #fff;
     padding: 10px;
     border: none;
@@ -106,16 +106,16 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
     margin-left: 5px;
-    width: 60px; 
+    width: 60px;
   }
-  
+
   .copy-btn:hover {
-    background-color: #622baa;
+    background-color: #1e293b;
     border: none;
   }
-  
-  
- 
+
+
+
 .preloader {
     display: none;
     border: 4px solid #f3f3f3;
@@ -126,9 +126,8 @@ body {
     animation: spin 1s linear infinite;
     margin: 10px auto;
   }
-  
+
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
-  
